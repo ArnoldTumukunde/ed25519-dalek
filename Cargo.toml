@@ -26,7 +26,7 @@ features = ["batch", "digest", "hazmat", "pem", "serde"]
 
 [dependencies]
 curve25519-dalek = { branch = "main", default-features = false, features = ["digest"], git = "https://github.com/ArnoldTumukunde/curve25519-dalek.git" }
-ed25519 = { version = ">=2.2, <2.3", default-features = false }
+ed25519 = { version = "2.2.0", default-features = false }
 signature = { version = ">=2.0, <=2.2.0", optional = true, default-features = false }
 sha2 = { version = "0.10", default-features = false }
 
